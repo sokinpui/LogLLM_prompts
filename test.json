@@ -189,7 +189,7 @@
     "tests": {
         "t": {
             "TextClass": {
-                "run": "no prompts",
+                "run": "{msg}",
                 "test_manual": "no prompts"
             }
         }
