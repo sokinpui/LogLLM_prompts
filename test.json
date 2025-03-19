@@ -1,20 +1,4 @@
 {
-    "tests": {
-        "t": {
-            "TextClass": {
-                "run": "no prompts",
-                "test_manual": "no prompts"
-            }
-        },
-        "subdir": {
-            "nested": {
-                "NestedClass": {
-                    "run": "no prompts"
-                }
-            },
-            "asdf": {}
-        }
-    },
     "agents": {
         "linear_analyze_agent": {
             "LinearAnalyzeAgentState": {},
