@@ -65,7 +65,7 @@
         "agent_abc": {
             "Agent": {
                 "_build_graph": "no prompts",
-                "run": "before add utils"
+                "run": "after add utils"
             }
         }
     },
