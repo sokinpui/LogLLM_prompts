@@ -185,5 +185,13 @@
                 }
             }
         }
+    },
+    "tests": {
+        "t": {
+            "TextClass": {
+                "run": "no prompts",
+                "test_manual": "no prompts"
+            }
+        }
     }
 }
