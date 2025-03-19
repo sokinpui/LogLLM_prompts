@@ -1,8 +1,16 @@
 {
-    "nested": {
-        "NestedClass": {
-            "run": "no prompts"
+    "t": {
+        "TextClass": {
+            "run": "no prompts",
+            "test_manual": "no prompts"
         }
     },
-    "asdf": {}
+    "subdir": {
+        "nested": {
+            "NestedClass": {
+                "run": "no prompts"
+            }
+        },
+        "asdf": {}
+    }
 }
