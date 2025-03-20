@@ -34,7 +34,7 @@
                 "run": "no prompts",
                 "_build_graph": "no prompts",
                 "get_prompt": "no prompts",
-                "is_question": "no prompts",
+                "is_question": "## The Given prompt\n{original_prompt}\n\n**Task**: Determine if the given prompt can be converted into a question. Follow these steps:\n\n1. **Evaluate Input Type**:\n   - Check if the input is already a question (e.g., starts with \"What,\" \"How,\" \"Why,\" etc.).\n   - If it\u2019s not a question, determine if it contains an implicit query or intent that can be converted into a question.\n\n2. **Identify Implicit Intent**:\n   - Look for keywords or phrases that suggest an underlying question (e.g., \"I want to know\u2026,\" \"Explain\u2026,\" \"Tell me about\u2026\").\n   - Use context clues to infer the user\u2019s intent (e.g., \"It\u2019s cold here\" \u2192 \"Can you adjust the temperature?\").\n\n3. **output**:\n    - if it the input is already a question: answer yes\n    - if it is not a question:\n        - if it can be converted to a question: answer yes\n        - if it cannot be converted to a question: answer no\n",
                 "parse_input": "no prompts",
                 "context_understanding": "no prompts",
                 "determine_goal": "no prompts",
