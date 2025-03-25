@@ -15,19 +15,6 @@
             }
         },
         "gen_query_agent": {},
-        "pre_process_agent": {
-            "PreProcessAgentState": {},
-            "PreProcessAgent": {
-                "run": "no prompts",
-                "_build_graph": "no prompts",
-                "_list_to_indices": "no prompts",
-                "interpre_event": "no prompts",
-                "gen_search_query": "no prompts",
-                "search_in_db": "no prompts",
-                "search_feedback": "no prompts"
-            },
-            "schema": {}
-        },
         "reasoning_agent": {
             "State": {},
             "ReasoningAgent": {
