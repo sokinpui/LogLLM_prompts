@@ -61,11 +61,6 @@
         },
         "config": {
             "config": {}
-        },
-        "cli": {
-            "collect": {},
-            "container": {},
-            "__main__": {}
         }
     }
 }
