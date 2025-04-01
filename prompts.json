@@ -63,5 +63,8 @@
                 "apply_rule_to_logs": "no prompts"
             }
         }
+    },
+    "logllm": {
+        "__main__": {}
     }
 }
