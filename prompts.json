@@ -105,11 +105,6 @@
                     "run": "no prompts"
                 }
             }
-        },
-        "cli": {
-            "collect": {},
-            "container": {},
-            "__main__": {}
         }
     }
 }
