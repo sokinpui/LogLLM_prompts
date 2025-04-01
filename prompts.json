@@ -51,6 +51,17 @@
                 "_build_graph": "no prompts",
                 "run": "no prompts"
             }
+        },
+        "log_parser_agent": {
+            "LogParserAgentState": {},
+            "ParsingRuleSchema": {},
+            "LogParserAgent": {
+                "run": "no prompts",
+                "_build_graph": "no prompts",
+                "get_log_sample": "no prompts",
+                "generate_parsing_rule": "no prompts",
+                "apply_rule_to_logs": "no prompts"
+            }
         }
     }
 }
