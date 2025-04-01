@@ -58,9 +58,6 @@
                     "run_drain_parser": "no prompts"
                 }
             }
-        },
-        "config": {
-            "config": {}
         }
     }
 }
