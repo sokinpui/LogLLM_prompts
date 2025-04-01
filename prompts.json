@@ -9,7 +9,7 @@
                     "run": "no prompts",
                     "_build_graph": "no prompts",
                     "get_log_sample": "no prompts",
-                    "generate_parsing_rule": "\"Analyze the following sample log lines:\\n```\\n{sample_logs}\\n```\\nIdentify the common structure and fields.\\nGenerate a single, robust Python-compatible regex pattern using *named capture groups* (e.g., `(?P<name>...)`) to extract the key fields consistently from lines like these.\\nAlso, provide a JSON list containing only the exact names you used for the capture groups in the regex pattern. Ensure the regex handles potential variations seen in the samples if possible.\"\n",
+                    "generate_parsing_rule": "Analyze the following sample log lines:\\n```\\n{sample_logs}\\n```\\nIdentify the common structure and fields.\\nGenerate a single, robust Python-compatible regex pattern using *named capture groups* (e.g., `(?P<name>...)`) to extract the key fields consistently from lines like these.\\nAlso, provide a JSON list containing only the exact names you used for the capture groups in the regex pattern. Ensure the regex handles potential variations seen in the samples if possible.\n",
                     "apply_rule_to_logs": "no prompts"
                 }
             },
