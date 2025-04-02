@@ -54,7 +54,7 @@
                     "run": "no prompts",
                     "_build_graph": "no prompts",
                     "get_log_sample": "no prompts",
-                    "generate_log_format": "<sample_logs>\n\nGenerate a Drain log format string (e.g., '<Date> <Time> <Content>') based on the above samples.\n",
+                    "generate_log_format": "{sample_logs}\n\nGenerate a Drain log format string (e.g., '<Date> <Time> <node> <IP> <user> <Content>') based on the above samples.\n",
                     "run_drain_parser": "no prompts"
                 }
             }
