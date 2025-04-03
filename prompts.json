@@ -6,7 +6,7 @@
                 "SimpleDrainLogParserState": {},
                 "SimpleDrainLogParserAgent": {
                     "run": "no prompts",
-                    "_generate_log_format": "no prompts",
+                    "_generate_log_format": "<sample_logs>\n\nGenerate a Drain log format string (e.g., '<Date> <Time> <Content>') based on the above samples.\n",
                     "_run_drain_parser": "no prompts"
                 },
                 "GroupLogParserAgent": {
