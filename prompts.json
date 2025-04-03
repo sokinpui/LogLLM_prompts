@@ -1,9 +1,6 @@
 {
     "logllm": {
         "__main__": {},
-        "config": {
-            "config": {}
-        },
         "agents": {
             "parser_agent": {
                 "SimpleDrainLogParserState": {},
