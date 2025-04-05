@@ -16,7 +16,14 @@
                 "run": "no prompts"
             },
             "schema": {},
-            "LogFormatSchema": {}
+            "LogFormatSchema": {},
+            "SimpleGrokLogParserState": {},
+            "GrokPatternSchema": {},
+            "SimpleGrokLogParserAgent": {
+                "run": "no prompts",
+                "_generate_grok_pattern": "no prompts",
+                "_run_grok_parser": "no prompts"
+            }
         },
         "agent_abc": {
             "Agent": {
