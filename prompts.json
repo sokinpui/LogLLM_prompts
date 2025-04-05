@@ -1,44 +1,42 @@
 {
-    "logllm": {
-        "__main__": {},
-        "agents": {
-            "parser_agent": {
-                "SimpleDrainLogParserState": {},
-                "SimpleDrainLogParserAgent": {
-                    "run": "no prompts",
-                    "_generate_log_format": "{sample_logs}\n\nGenerate a Drain log format string (e.g., '<Date> <Time> <Content>') based on the above samples.\n",
-                    "_run_drain_parser": "no prompts",
-                    "_call_llm_for_format": "Analyze the following sample log lines and determine the optimal log format string suitable for the Drain log parsing algorithm.\nOnly output the log format string itself, containing placeholders like <Content>, <Date>, <Time>, <Level>, <Component>, <IP>, etc.\n\nenclosed in angle brackets.\n\n\nSample Logs:\n---\n\n{sample_logs}\n\n---\nLog Format:\n"
-                },
-                "GroupLogParserAgent": {
-                    "fetch_groups": "no prompts",
-                    "parse_all_logs": "no prompts",
-                    "_update_progress_bar": "no prompts",
-                    "run": "no prompts"
-                },
-                "schema": {},
-                "LogFormatSchema": {}
+    "__main__": {},
+    "agents": {
+        "parser_agent": {
+            "SimpleDrainLogParserState": {},
+            "SimpleDrainLogParserAgent": {
+                "run": "no prompts",
+                "_generate_log_format": "Analyze the following sample log lines and determine the optimal log format string suitable for the Drain log parsing algorithm.\nOnly output the log format string itself, containing placeholders like <Content>, <Date>, <Time>, <Level>, <Component>, <IP>, etc.\n\nenclosed in angle brackets.\n\n\nSample Logs:\n---\n\n{sample_logs}\n\n---\nLog Format:\n",
+                "_run_drain_parser": "no prompts",
+                "_call_llm_for_format": "Analyze the following sample log lines and determine the optimal log format string suitable for the Drain log parsing algorithm.\nOnly output the log format string itself, containing placeholders like <Content>, <Date>, <Time>, <Level>, <Component>, <IP>, etc.\n\nenclosed in angle brackets.\n\n\nSample Logs:\n---\n\n{sample_logs}\n\n---\nLog Format:\n"
             },
-            "agent_abc": {
-                "Agent": {
-                    "_build_graph": "no prompts",
-                    "run": "no prompts"
-                }
+            "GroupLogParserAgent": {
+                "fetch_groups": "no prompts",
+                "parse_all_logs": "no prompts",
+                "_update_progress_bar": "no prompts",
+                "run": "no prompts"
             },
-            "es_parser_agent": {
-                "ESGroupParserAgent": {
-                    "_get_log_format_from_llm": "no prompts",
-                    "_get_sample_lines": "no prompts",
-                    "run": "no prompts"
-                },
-                "AllGroupsParserAgent": {
-                    "_get_all_groups": "no prompts",
-                    "run": "no prompts"
-                }
+            "schema": {},
+            "LogFormatSchema": {}
+        },
+        "agent_abc": {
+            "Agent": {
+                "_build_graph": "no prompts",
+                "run": "no prompts"
             }
         },
-        "config": {
-            "config": {}
+        "es_parser_agent": {
+            "ESGroupParserAgent": {
+                "_get_log_format_from_llm": "no prompts",
+                "_get_sample_lines": "no prompts",
+                "run": "no prompts"
+            },
+            "AllGroupsParserAgent": {
+                "_get_all_groups": "no prompts",
+                "run": "no prompts"
+            }
         }
+    },
+    "config": {
+        "config": {}
     }
 }
