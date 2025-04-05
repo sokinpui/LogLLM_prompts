@@ -1,28 +1,29 @@
 {
-    "logllm": {
-        "__main__": {},
-        "agents": {
-            "parser_agent": {
-                "SimpleDrainLogParserState": {},
-                "SimpleDrainLogParserAgent": {
-                    "run": "no prompts",
-                    "_generate_log_format": "<sample_logs>\n\nGenerate a Drain log format string (e.g., '<Date> <Time> <Content>') based on the above samples.\n",
-                    "_run_drain_parser": "no prompts"
-                },
-                "GroupLogParserAgent": {
-                    "fetch_groups": "no prompts",
-                    "parse_all_logs": "no prompts",
-                    "_update_progress_bar": "no prompts",
-                    "run": "no prompts"
-                },
-                "schema": {}
+    "__main__": {},
+    "agents": {
+        "parser_agent": {
+            "SimpleDrainLogParserState": {},
+            "SimpleDrainLogParserAgent": {
+                "run": "no prompts",
+                "_generate_log_format": "{sample_logs}\n\nGenerate a Drain log format string (e.g., '<Date> <Time> <Content>') based on the above samples.\n",
+                "_run_drain_parser": "no prompts"
             },
-            "agent_abc": {
-                "Agent": {
-                    "_build_graph": "no prompts",
-                    "run": "no prompts"
-                }
+            "GroupLogParserAgent": {
+                "fetch_groups": "no prompts",
+                "parse_all_logs": "no prompts",
+                "_update_progress_bar": "no prompts",
+                "run": "no prompts"
+            },
+            "schema": {}
+        },
+        "agent_abc": {
+            "Agent": {
+                "_build_graph": "no prompts",
+                "run": "no prompts"
             }
         }
+    },
+    "config": {
+        "config": {}
     }
 }
