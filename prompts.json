@@ -39,12 +39,6 @@
         },
         "config": {
             "config": {}
-        },
-        "cli": {
-            "collect": {},
-            "pm": {},
-            "container": {},
-            "parse": {}
         }
     }
 }
