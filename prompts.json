@@ -8,7 +8,7 @@
                     "run": "no prompts",
                     "_generate_log_format": "{sample_logs}\n\nGenerate a Drain log format string (e.g., '<Date> <Time> <Content>') based on the above samples.\n",
                     "_run_drain_parser": "no prompts",
-                    "_call_llm_for_format": "no prompts"
+                    "_call_llm_for_format": "Analyze the following sample log lines and determine the optimal log format string suitable for the Drain log parsing algorithm.\nOnly output the log format string itself, containing placeholders like <Content>, <Date>, <Time>, <Level>, <Component>, <IP>, etc.\n\nenclosed in angle brackets.\n\n\nSample Logs:\n---\n\n{sample_logs}\n\n---\nLog Format:\n"
                 },
                 "GroupLogParserAgent": {
                     "fetch_groups": "no prompts",
