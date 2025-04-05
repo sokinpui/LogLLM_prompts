@@ -170,5 +170,11 @@
                 "_start_daemon": "no prompts"
             }
         }
+    },
+    "cli": {
+        "collect": {},
+        "pm": {},
+        "container": {},
+        "parse": {}
     }
 }
