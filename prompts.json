@@ -215,6 +215,7 @@
         "collect": {},
         "pm": {},
         "container": {},
-        "parse": {}
+        "parse": {},
+        "es_parse": {}
     }
 }
