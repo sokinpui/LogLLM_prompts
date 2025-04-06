@@ -108,7 +108,11 @@
                 "add_alias": "no prompts",
                 "count_docs": "no prompts",
                 "get_unique_values_composite": "no prompts",
-                "get_unique_values": "no prompts"
+                "get_unique_values": "no prompts",
+                "scroll_and_process_batches": "no prompts",
+                "bulk_operation": "no prompts",
+                "bulk_index": "no prompts",
+                "get_sample_lines": "no prompts"
             }
         },
         "prompts_manager": {
@@ -189,7 +193,8 @@
             "ContainerManager": {
                 "start_container": "no prompts",
                 "stop_container": "no prompts",
-                "get_container_status": "no prompts"
+                "get_container_status": "no prompts",
+                "remove_container": "no prompts"
             },
             "DockerManager": {
                 "start_container": "no prompts",
@@ -199,7 +204,10 @@
                 "_create_network": "no prompts",
                 "_create_volume": "no prompts",
                 "_pull_image": "no prompts",
-                "_start_daemon": "no prompts"
+                "_start_daemon": "no prompts",
+                "_ensure_client": "no prompts",
+                "remove_container": "no prompts",
+                "_remove_container_if_exists": "no prompts"
             }
         }
     },
