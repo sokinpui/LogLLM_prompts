@@ -40,6 +40,29 @@
             "AllGroupsParserAgent": {
                 "_get_all_groups": "no prompts",
                 "run": "no prompts"
+            },
+            "GrokPatternSchema": {},
+            "ScrollGrokParserState": {},
+            "SingleGroupParseGraphState": {},
+            "AllGroupsParserState": {},
+            "ScrollGrokParserAgent": {
+                "_initialize_grok": "no prompts",
+                "_process_single_hit": "no prompts",
+                "_process_batch": "no prompts",
+                "_flush_batch": "no prompts",
+                "run": "no prompts"
+            },
+            "SingleGroupParserAgent": {
+                "_start_node": "no prompts",
+                "_generate_grok_node": "no prompts",
+                "_validate_pattern_node": "no prompts",
+                "_parse_all_node": "no prompts",
+                "_fallback_node": "no prompts",
+                "_prepare_for_retry_node": "no prompts",
+                "_decide_after_generate": "no prompts",
+                "_decide_after_validation": "no prompts",
+                "_build_graph": "no prompts",
+                "run": "no prompts"
             }
         }
     },
