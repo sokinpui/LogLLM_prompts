@@ -55,7 +55,7 @@
                 },
                 "SingleGroupParserAgent": {
                     "_start_node": "no prompts",
-                    "_generate_grok_node": "no prompts",
+                    "_generate_grok_node": "Analyze the following sample log lines. Your task is to create the single best Grok pattern string suitable for parsing these lines using the pygrok library.\n\nThe pattern should cover the entire log line structure from beginning to end.\nUse standard Grok patterns like %%{{TIMESTAMP_ISO8601:timestamp}}, %%{{LOGLEVEL:level}}, etc. Choose meaningful field names.\nPay close attention to literals and delimiters. Escape special regex characters.\n\n{last_failed_pattern_context}\nSample Logs:\n---\n{sample_logs_for_generation}\n---\n\nOutput *only* the final Grok pattern string itself, nothing else.\n\nGrok Pattern String:",
                     "_validate_pattern_node": "no prompts",
                     "_parse_all_node": "no prompts",
                     "_fallback_node": "no prompts",
