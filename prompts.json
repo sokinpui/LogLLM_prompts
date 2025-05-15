@@ -246,6 +246,8 @@
         "pm": {},
         "container": {},
         "parse": {},
-        "es_parse": {}
+        "es_parse": {},
+        "analyze_errors": {},
+        "normalize_ts": {}
     }
 }
