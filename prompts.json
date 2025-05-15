@@ -257,5 +257,14 @@
             "ErrorSummarySchema": {},
             "ErrorAnalysisPipelineState": {}
         }
+    },
+    "processors": {
+        "timestamp_normalizer": {
+            "TimestampNormalizerAgent": {
+                "_extract_and_parse_datetime": "no prompts",
+                "normalize_document_timestamp": "no prompts",
+                "process_group": "no prompts"
+            }
+        }
     }
 }
