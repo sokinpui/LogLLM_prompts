@@ -50,7 +50,9 @@
                 "_process_single_hit": "no prompts",
                 "_process_batch": "no prompts",
                 "_flush_batch": "no prompts",
-                "run": "no prompts"
+                "run": "no prompts",
+                "_flush_success_batch": "no prompts",
+                "_flush_failed_batch": "no prompts"
             },
             "SingleGroupParserAgent": {
                 "_start_node": "no prompts",
@@ -62,6 +64,34 @@
                 "_decide_after_generate": "no prompts",
                 "_decide_after_validation": "no prompts",
                 "_build_graph": "no prompts",
+                "run": "no prompts",
+                "_store_results_node": "no prompts",
+                "_decide_pattern_source": "no prompts"
+            }
+        },
+        "error_summarizer_agent": {
+            "ErrorSummarizerAgent": {
+                "_format_log_samples_for_prompt": "no prompts",
+                "run": "no prompts"
+            }
+        },
+        "error_analysis_pipeline_agent": {
+            "ErrorAnalysisPipelineAgent": {
+                "_fetch_initial_errors_node": "no prompts",
+                "_cluster_errors_node": "no prompts",
+                "_sample_and_summarize_cluster_node": "no prompts",
+                "_sample_and_summarize_unclustered_node": "no prompts",
+                "_store_summaries_node": "no prompts",
+                "_should_continue_clustering_loop": "no prompts",
+                "_decide_clustering_outcome": "no prompts",
+                "_build_graph": "no prompts",
+                "run": "no prompts"
+            }
+        },
+        "error_clusterer_agent": {
+            "ErrorClustererAgent": {
+                "_get_embeddings": "no prompts",
+                "_get_cluster_stats": "no prompts",
                 "run": "no prompts"
             }
         }
