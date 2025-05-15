@@ -249,5 +249,13 @@
         "es_parse": {},
         "analyze_errors": {},
         "normalize_ts": {}
+    },
+    "data_schemas": {
+        "error_analysis": {
+            "LogDocument": {},
+            "ClusterResult": {},
+            "ErrorSummarySchema": {},
+            "ErrorAnalysisPipelineState": {}
+        }
     }
 }
