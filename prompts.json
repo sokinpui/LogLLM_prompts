@@ -72,6 +72,8 @@
             },
             "error_summarizer_agent": {
                 "ErrorSummarizerAgent": {
+                    "summarize_clustered": "You are an expert Log Analyst. Based on the following {num_examples} example log lines, which are representative of an error type described as '{error_type_description}' that occurred {total_occurrences} times between {first_occurrence} and {last_occurrence} in group '{group_name}', provide a structured summary. The raw log extracts are:\n{log_extracts}\n\nOutput your analysis in the required JSON format.",
+            "summarize_unclustered": "You are an expert Log Analyst. Based on the following {num_examples} example error log lines from group '{group_name}', occurring between {first_occurrence} and {last_occurrence}, provide a structured summary. The raw log extracts are:\n{log_extracts}\n\nOutput your analysis in the required JSON format.",
                     "_format_log_samples_for_prompt": "no prompts",
                     "run": "no prompts"
                 }
